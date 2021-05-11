@@ -555,6 +555,7 @@
 }
 
 .line-block-02 {
+  z-index: 99;
   width: 0%;
   height: 20px;
   margin-top: -25px;
@@ -873,6 +874,16 @@
   transition: all 200ms ease;
   font-family: 'Bn hamburg hand', sans-serif;
   font-size: 1em;
+}
+
+.cursor-animation {
+  position: absolute;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  border-radius: 99px;
+  background-color: rgba(192, 240, 96, 0.45);
+  opacity: 0;
 }
 
 @media screen and (min-width: 1280px) {
