@@ -505,17 +505,13 @@
 }
 
 .icon-link {
+  margin-right: 0.5em;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Fa brands 400', sans-serif;
-  color: #b8b9b8;
   font-size: 2em;
   font-weight: 400;
   text-decoration: none;
-}
-
-.icon-link:hover {
-  color: #bff25a;
 }
 
 .apple-podcast {
@@ -833,6 +829,32 @@
 .atrributin-hyperlink:hover {
   color: #bff25a;
   text-transform: lowercase;
+}
+
+.icon-link-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #b8b9b8;
+  text-decoration: none;
+}
+
+.icon-link-wrapper:hover {
+  color: #bff25a;
+}
+
+.social-media-text-wrapper {
+  display: none;
+  opacity: 0;
+  -webkit-transform: translate(-129px, 0px);
+  -ms-transform: translate(-129px, 0px);
+  transform: translate(-129px, 0px);
+  font-family: 'Bn hamburg hand', sans-serif;
+  font-size: 1em;
 }
 
 @media screen and (min-width: 1280px) {
