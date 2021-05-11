@@ -505,7 +505,6 @@
 }
 
 .icon-link {
-  margin-right: 0.5em;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Fa brands 400', sans-serif;
@@ -527,6 +526,9 @@
 }
 
 .apple-podcast:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   color: #bff25a;
 }
 
@@ -836,7 +838,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: auto;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #b8b9b8;
@@ -844,15 +845,22 @@
 }
 
 .icon-link-wrapper:hover {
+  -webkit-transform: rotate(-26deg);
+  -ms-transform: rotate(-26deg);
+  transform: rotate(-26deg);
   color: #bff25a;
 }
 
 .social-media-text-wrapper {
-  display: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   opacity: 0;
-  -webkit-transform: translate(80px, 0px);
-  -ms-transform: translate(80px, 0px);
-  transform: translate(80px, 0px);
+  -webkit-transform: translate(0px, 300px);
+  -ms-transform: translate(0px, 300px);
+  transform: translate(0px, 300px);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Bn hamburg hand', sans-serif;
