@@ -508,9 +508,17 @@
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Fa brands 400', sans-serif;
+  color: #b8b9b8;
   font-size: 2em;
   font-weight: 400;
   text-decoration: none;
+}
+
+.icon-link:hover {
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  color: #bff25a;
 }
 
 .apple-podcast {
